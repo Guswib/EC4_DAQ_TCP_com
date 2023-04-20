@@ -1,0 +1,50 @@
+{
+	"version": "2.0.3",
+	"dateTime": {
+		"year": 2023,
+		"month": 1,
+		"day": 10,
+		"hours": 10,
+		"minutes": 25,
+		"seconds": 23
+	},
+	"last_version": "2.0.2",
+	"last_dateTime": {
+		"year": 2023,
+		"month": 1,
+		"day": 10,
+		"hours": 10,
+		"minutes": 24,
+		"seconds": 49
+	},
+	"json-files": [
+		{
+			"Filename": "library.json",
+			"FileLocation": "${workspaceFolder}",
+			"Enable": true
+		},
+		{
+			"Filename": "File2.json",
+			"FileLocation": "${workspaceFolder}",
+			"Enable": false
+		}
+	],
+	"txt-files": [
+		{
+			"Filename": "src\\GDE_Station.h",
+			"FileLocation": "${workspaceFolder}",
+			"Enable": true,
+			"Patterns": [
+				"#define GDE_STATION_VER \"V-INC\""
+			]
+		},
+		{
+			"Filename": "library.properties",
+			"FileLocation": "${workspaceFolder}",
+			"Enable": true,
+			"Patterns": [
+				"version=v-inc"
+			]
+		}
+	]
+}
